@@ -1,1 +1,12 @@
 /*CSS*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slogan-rodape {
+    padding: 3em;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
