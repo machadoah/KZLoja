@@ -137,6 +137,13 @@
     strong {
         color: #77ACC7;
     }
+
+    /* CONTEUDO TERCIARIO */
+
+    iframe {
+        width: 90%;
+        height: 200px;
+    }
     
     /* FOOTER */
     
