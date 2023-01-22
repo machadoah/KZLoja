@@ -2,7 +2,146 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background: #000;
+
 }
+
+/* HEADER */
+
+.cabecalho {
+    display: flex; /* uso de flex box*/
+    flex-direction: row; /* menu em linha*/
+    align-items: center; /* alinhamento */
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.cabecalho-imagem {
+    width: 7em;
+    height: 7em;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 3em;
+}
+
+.cabecalho-menu-item {
+    color: #EFEBE7;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.cabecalho-menu-item:hover {
+    color: #7BA0C0;
+    transition: 400ms;
+}
+
+/* MAIN */
+
+/* CONTEUDO PRINCIPAL */
+
+.conteudo {
+border-top: 0.4px solid #EFEBE7;
+margin: 2em 0em 2em 0em ; /* superior - direita - inferior - esquerda */
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.conteudo-principal-escrito-titulo {
+    color: #EFEBE7;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    color: #77ACC7;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #7BA0C0;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #77ACC7;
+    transition: 400ms;
+}
+
+.conteudo-principal-imagem {
+    height: 40em;
+    padding: 4em 4em 0 0;
+}
+
+/* CONTEUDO SECUNDÁRIO */
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3em;
+    color: white;
+    text-align: center;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #EFEBE7;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: #EFEBE7;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.conteudo-secundario-paragrafo {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.conteudo-secundario-paragrafo-proprietaria {
+    color: #7BA0C0;
+    font-weight: 600;
+}
+
+.conteudo-secundario-citacao {
+    font-weight: bold;
+    color: #EFEBE7;
+}
+
+strong {
+    color: #77ACC7;
+}
+
+/* FOOTER */
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #7BA0C0;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .slogan-rodape {
     padding: 3em;
@@ -10,3 +149,8 @@ body {
     text-align: center;
     font-weight: bold;
 }
+
+
+    
+
+
