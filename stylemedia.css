@@ -23,7 +23,7 @@
     
     .cabecalho-menu {
         display: flex;
-        gap: 20px;
+        gap: 50px;
     }
     
     .cabecalho-menu-item {
@@ -94,7 +94,7 @@
     }
     
     .conteudo-principal-imagem {
-        height: 150px;
+        height: 180px;
         padding: 0px 0px 0px 0px;
         border-radius: 20px;
     }
@@ -129,6 +129,9 @@
     .conteudo-secundario-citacao {
         font-weight: bold;
         color: #EFEBE7;
+        font-size: 13px;
+        padding-top: 24px;
+        border-top: 0.4px #fff solid;
     }
     
     strong {
