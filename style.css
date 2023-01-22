@@ -88,7 +88,9 @@ margin: 2em 0em 2em 0em ; /* superior - direita - inferior - esquerda */
 
 .conteudo-principal-imagem {
     height: 40em;
-    padding: 4em 4em 0 0;
+    padding: 0 0 0 0;
+    border-radius: 30px;
+    margin-top: 48px;
 }
 
 /* CONTEUDO SECUNDÁRIO */
@@ -142,10 +144,10 @@ strong {
 
 .conteudo-terciario-titulo {
     border-top: 0.4px solid #EFEBE7;
-    padding-top: 24px;
-    padding-bottom: 36px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     color: #EFEBE7;
-    font-size: 16px;
+    font-size: 2em;
     font-weight: 800;
 }
 

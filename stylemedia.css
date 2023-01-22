@@ -82,6 +82,7 @@
         border-radius: 10px;
         font-size: 9px;
         margin-left: 30px ;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .conteudo-principal-escrito-subtitulo > strong {
@@ -143,6 +144,22 @@
     iframe {
         width: 100%;
         height: 200px;
+    }
+
+    .conteudo-terciario {
+        margin-top: 24px;
+        color: white;
+        font-size: 12px;
+
+    }
+    
+    .conteudo-terciario-titulo {
+        border-top: 0.4px solid #EFEBE7;
+        padding-top: 24px;
+        padding-bottom: 36px;
+        color: #EFEBE7;
+        font-size: 16px;
+        font-weight: 800;
     }
     
     /* FOOTER */
